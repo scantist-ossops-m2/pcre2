@@ -16340,10 +16340,6 @@ Failed: error 150 at offset 3: invalid range in character class
 /[\d-[:print:]]/
 Failed: error 150 at offset 3: invalid range in character class
 
---
-    \[X]{-10}
-** Zero or negative repeat not allowed
-
 # End of testinput2
 Error -65: PCRE2_ERROR_BADDATA (unknown error number)
 Error -62: bad serialized data
